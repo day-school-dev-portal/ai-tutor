@@ -1,42 +1,42 @@
 # Module 4 — how to tutor it
 
 Hand-written. The module's own words are in `module-04.md`, generated from the website; this
-file is how to run them as a conversation. Exercise numbers (4.1 to 4.6) match the page.
+file is how to run them as a conversation. Exercise numbers (4.1 to 4.7) match the page.
 
 ## The shape: mostly in their browser, where you can't follow
 
-Module 4 is the shortest module so far and the one you can see least of. Five of its six
-exercises happen in Drive, in Netlify and on their phone. You can see exactly one thing — the
-folder — and it happens to be the thing that decides whether the publish works.
+Module 4 is the shortest module so far and the one you can see least of. Six of its seven
+exercises happen in TextEdit, in their mail, in Netlify and on their phone. You can see exactly
+one thing — the folder — and it happens to be the thing that decides whether the publish works.
 
 | Part | Exercises | Where | What you can do there |
 |---|---|---|---|
-| **The failed attempt** | the opening question, 4.1 | Drive, then a private browser window | nothing but ask and explain |
-| **The folder** | 4.2 | a Code session in `~/Projects/<their site>` | **arrange the folder, and check it properly** — this is your part |
-| **Publishing** | 4.3 to 4.6 | netlify.com, their phone | wait, explain, and read the folder again before each deploy |
+| **What a file is** | the opening question, 4.1 to 4.2 | TextEdit, their mail, their phone | nothing but ask and explain |
+| **The folder** | 4.3 | a Code session in `~/Projects/<their site>` | **arrange the folder, and check it properly** — this is your part |
+| **Publishing** | 4.4 to 4.7 | netlify.com, their phone | wait, explain, and read the folder again before each deploy |
 
-So the tutor's real contribution in this module is the pre-flight check at 4.2 and before 4.3.
+So the tutor's real contribution in this module is the pre-flight check at 4.3 and before 4.4.
 Everything the page's troubleshooting table lists — a missing `index.html`, a stylesheet left
 behind, `Photo.JPG` against `photo.jpg`, a path that only exists on their laptop — is visible in
 the folder before they drag anything anywhere. Find those first. It is the one place where
 having a tutor beats having the page.
 
-**This module can run from a chat** if they haven't got a Code session: 4.2 becomes "ask Claude
+**This module can run from a chat** if they haven't got a Code session: 4.3 becomes "ask Claude
 Code in that folder", and you lose the checks. Prefer a Code session in the folder they're
 publishing. They'll need something they made in Module 1, 2 or 3; ask which in the setup question.
 
 ## Working out where they are
 
 **In a chat:** ask what they made and whether it's already in its own folder. Then 4.1, which
-needs nothing but Drive.
+needs nothing but TextEdit and a double-click.
 
 **In a Claude Code session:** look first, read-only.
 
 | What you find | Where they are | What to do |
 |---|---|---|
-| A project folder with an `index.html` at the top | 4.2 is done, whether or not they know it | Say what you see, run the checks below, then 4.3. |
-| `game.html` / `letter.html` and friends, no `index.html` | 4.2 is the next thing | That rename *is* the exercise. Don't do it before they ask for it in 4.2's prompt. |
-| A folder whose page points at files that aren't there | 4.2 half done | The second reveal: ask what the page is asking for and where it expects to find it. Fix it with them. |
+| A project folder with an `index.html` at the top | 4.3 is done, whether or not they know it | Say what you see, run the checks below, then 4.4. |
+| `game.html` / `letter.html` and friends, no `index.html` | 4.3 is the next thing | That rename *is* the exercise. Don't do it before they ask for it in 4.3's prompt. |
+| A folder whose page points at files that aren't there | 4.3 half done | The second reveal: ask what the page is asking for and where it expects to find it. Fix it with them. |
 | `~/Projects` itself, or the home folder | Wrong folder | A new session in the folder they're publishing. |
 
 The folder can't tell you whether they've published. Ask: "Is it live yet — have you got an
@@ -48,22 +48,34 @@ address?"
 web address actually for?"* Hold it, don't answer it. Setup question: which thing are they
 publishing — the game, the letters, the lesson materials?
 
-**4.1 — the thing you'd try first.** Upload the HTML to Drive, share as *anyone with the link*,
-open it in a private window. **Let it fail.** If they say "that won't work" before trying, have
-them try anyway: the failure is a whole section of the module and it takes two minutes.
+**4.1 — one file, two ways of opening it.** They open an HTML file in TextEdit, read a few
+lines, close it without saving, then double-click the same file and watch it become a page.
+**Both halves matter and they'll want to skip the first one.** Reading the raw text is what makes
+the reveal land: an HTML file is just text, not a special format, not something compiled or
+locked — and the browser is the thing doing the drawing.
 
-When they report what they got (a download prompt, a wall of code, nothing), the reveal: **Drive
-is a filing cabinet, not a web server.** Then the second problem, which is the one they'll
-remember: even if it had rendered, **that link belongs to Google's permission system** — it can be
-revoked, it can demand a sign-in, it behaves differently inside and outside the school account.
-*A web address asks nobody for permission. It just opens.*
+If they're nervous about opening it in TextEdit, say plainly that reading a file changes
+nothing, and that closing without saving is the whole safety net. If they ask what the tags
+mean, don't teach HTML here; the point is that it is readable, not that they can read it all.
+
+**4.2 — the copy that goes stale.** They mail themselves the file, open it on their phone, then
+have you change something visible on the laptop, then open the mailed copy again. It hasn't
+changed. **Let them discover that rather than announcing it** — the whole exercise is two minutes
+and the surprise is the content.
+
+The reveal is in two parts and the second is the one they keep. First: **sending somebody a file
+genuinely works** — it opens, it looks right, no server involved. Then the catch: *a file you
+send is a copy.* It arrives on somebody's machine, it is theirs, and it was out of date the
+moment you changed yours. You cannot update it, you cannot take it back, and you have no idea
+how many copies exist. That is the question the module's opening asks, answered by experience
+instead of assertion.
 
 **Section 2, in your own voice, briefly.** A website can be nothing more than a folder of files
 on a computer that's always on. **What Claude has been making for them is already that shape.**
 The gap between the laptop and the internet is not a rewrite — it's a move. Two or three
-sentences; they'll believe it for real at 4.3.
+sentences; they'll believe it for real at 4.4.
 
-**4.2 — getting the folder right.** They send the prompt. Do the work: everything the thing needs
+**4.3 — getting the folder right.** They send the prompt. Do the work: everything the thing needs
 in one folder, the main page named exactly `index.html`, lower case. Then tell them the folder's
 full path and **have them double-click `index.html` from its new home** — the reveal turns on it
 still working after the move.
@@ -87,13 +99,13 @@ See section 5 and SKILL.md rule 8. Invented data is fine and they already have a
 
 ## Part B — publishing
 
-**4.3 — Netlify.** They make the account themselves and they do the drag themselves; you don't
+**4.4 — Netlify.** They make the account themselves and they do the drag themselves; you don't
 make accounts, enter credentials, or sign in to anything on their behalf, and you can't see the
 site either way. Give the page's four steps, with its own hedge about Netlify moving the drop
 area around ("within one screen of the Sites list; 'drop' is usually in the wording").
 
 Two things to insist on gently: **make the account before publishing** (a site that isn't
-attached to you is awkward to delete, and 4.4 is about deleting it), and **drag the folder, not
+attached to you is awkward to delete, and 4.5 is about deleting it), and **drag the folder, not
 the file**.
 
 Then wait. When they come back with an address, ask them to open it **on their phone, off
@@ -116,17 +128,17 @@ If they ask "but what about the thing I actually want to build, with my class in
 good question, it's Module 9, and the honest short answer is: the tool with invented data,
 published; the real data somewhere else. Don't negotiate it into a maybe.
 
-**4.4 — taking it down.** Delete the site, then check the address in a private window. The
+**4.5 — taking it down.** Delete the site, then check the address in a private window. The
 property to name: *can I take this back, by myself, immediately?* And the limit: **future
 visitors get nothing; everything already fetched is still out there.** Then have them publish it
-again — they need it for 4.5 and it takes four seconds.
+again — they need it for 4.6 and it takes four seconds.
 
-**4.5 — a name.** Change the site name to something they'd put in an email. The reveal is the
+**4.6 — a name.** Change the site name to something they'd put in an email. The reveal is the
 nice one: the old address stops working and the new one starts instantly, which tells them what
 an address is — **a label pointing at the files, not a place where they live.** Hence: change it
 once, then stop, because every link already sent points at the old name.
 
-**4.6 — changing it.** They ask you for a visible change; make it, keeping the same filenames in
+**4.7 — changing it.** They ask you for a visible change; make it, keeping the same filenames in
 the same folder. They drag the folder again and reload. Then the two consequences, which are the
 setup for Sequence 2:
 
@@ -161,11 +173,12 @@ that — offer it and answer it honestly, naming the part that needs more than a
 The page's table (section 10) is good and covers most of it. What it doesn't:
 
 - **They ask you to publish it for them.** You can't, and you shouldn't want to: the account and
-  the address are theirs, and taking it down (4.4) only works if they own it. Say so in one line
+  the address are theirs, and taking it down (4.5) only works if they own it. Say so in one line
   and give the drag steps again.
-- **They want to skip 4.1 because they already know Drive won't work.** Two minutes, and the
-  second half of the reveal — the link belonging to Google's permission system — is the part
-  nobody predicts. Ask them to do it anyway; don't insist twice.
+- **They want to skip 4.1 because they know what's in an HTML file.** Knowing it and seeing it
+  are different, and the exercise is ninety seconds. The same goes for 4.2: people who can
+  explain why the mailed copy is stale are still surprised when they watch it happen on their
+  own phone. Ask them to do it anyway; don't insist twice.
 - **A 404 or a list of filenames.** Nearly always `index.html` missing or one level down. Ask
   them to tell you the name of the folder they dragged and what's directly inside it.
 - **It works for them and not for a colleague.** Usually the admin link (`app.netlify.com/…`)

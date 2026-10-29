@@ -43,11 +43,17 @@ You can email somebody a file. So what is a web address actually *for*? Think ab
 
 Open this and take a look. **You don't need to learn them now.** You will meet each one by doing something.
 
-**Button** — Show the 8 terms
+**Button** — Show the 11 terms
 
 ### **The terms ^vocab-terms**
 
 The clay-colored lines are the notes that appear underneath a definition. Not every term has one.
+
+**Browser** A program that opens a file and draws it on screen. Double-click a page on your laptop and it opens a file on your computer; type a web address and it opens one on somebody else's. *Note:* Same program, same kind of file. The only difference is whose computer it is on — which is the whole of this module.
+
+**Render** What a browser does with an HTML file: reads the text in it and draws the page you see. *Note:* The file really is just text. You can open it in TextEdit and read it yourself.
+
+**Artifact** Something Claude made that lives inside Claude, in the conversation, rather than in a folder on your computer. *Note:* It is not a file until you download it — and a host can only publish files.
 
 **Static site** A website made only of files: pages, styles, pictures. Nothing is calculated when somebody visits; the files are simply handed over. *Note:* Almost everything Claude builds for you is already this shape.
 
@@ -65,51 +71,95 @@ The clay-colored lines are the notes that appear underneath a definition. Not ev
 
 **HTTPS** The padlock. It means the connection is private; it does **not** mean the page is.
 
-## **Section 1 — The thing you would try first ^sec1**
+## **Section 1 — First, do you have a file? ^sec1**
 
-**Heading** — The thing you would try first
+**Heading** — First, do you have a file?
 
-Before anything else, try the obvious thing, because it nearly works and the way it fails is the whole module.
+This module publishes *files*, so before anything else, find out whether you have one. The answer depends on where you have been working, and a lot of people are surprised by it.
 
-### **Try it yourself 4.1 ^try-4-1**
+**If you have been working in Claude Code, you do.** Everything it made is sitting in a folder you named. You can open that folder in Finder right now and see it.
 
-Take something interactive you built — the game from Module 1 is ideal. Upload the HTML file to your Google Drive.
+**If you have been working in the Claude app or on claude.ai, you may not.** When Claude builds you a page there, it usually appears as an **artifact** — a panel beside the conversation showing the finished thing, which you can click around in. That artifact lives inside Claude, in that conversation. It is not in any folder on your computer, and there is nothing yet for you to drag anywhere.
 
-Share it the way you would share a document: **anyone with the link**. Copy that link.
+The distinction is worth more than this module. **A file is yours.** It sits on your disk, it is backed up with everything else you own, any program can open it, any host will take it, and it will still be there in ten years with no account anywhere. An artifact is convenient, and it is a feature of somebody's product.
 
-Now open a private browsing window, paste the link, and look at what a colleague would see.
+If yours is an artifact, get it out before going on. In the Claude app there is a download control on the artifact itself. In Claude Code, ask:
 
-### **What just happened ^reveal-r1**
+**Ask Claude — to turn what you made into real files**
 
-**Button hint** — Open the link in a private window first
-
-It did not run. Depending on the file, you got a download prompt, or a preview that showed the page's code as text, or a wall of nothing.
-
-**Drive is a filing cabinet, not a web server.** It is extremely good at holding a file and handing you back the identical file. That is what it is for. But a web page is not meant to be *handed over* — it is meant to be *rendered*, and the thing that renders it has to be told "this is a page, run it," rather than "here are some bytes, save them."
-
-Notice the second problem too, the one that is easy to miss. Even if it had worked, **that link belongs to Google's permission system.** It can be revoked, it can ask the visitor to sign in, it behaves differently for somebody inside your school's account than outside it, and it looks like a document. A web address asks nobody for permission. It just opens.
-
-Those are two different things, and you want the second one.
-
-## **Section 2 — What a website actually is ^sec2**
-
-**Heading** — What a website actually is
-
-Here is the part that is smaller than people expect.
-
-**A website can be nothing more than a folder of files on a computer that is always on.** Somebody's browser asks for a page, the computer hands it over, the browser draws it. That is the entire transaction.
-
-Sites like that have a name: **static**. Nothing is worked out at the moment somebody visits — no database is consulted, no program runs on the far end. The files were made in advance and are simply served.
-
-This matters to you for one reason. **What Claude has been making for you is already exactly that shape.** A page, a stylesheet, maybe some pictures, sitting together in a folder. You have been building static sites for three modules without needing the word.
-
-So the gap between what is on your laptop and what is on the internet is not a rewrite. It is a move.
+> Write what you just made into its own folder in my Projects folder, as real files I can open in Finder. Tell me the folder's full path when you are done.
 
 ### **Side note ^aside-1**
 
+**Claude can also publish an artifact for you**, and for showing somebody something once, that is a perfectly good answer. What it does not give you is an address of your own, a name you chose, the ability to hand the same thing to a different host next year, or anything that outlives the product. Those are what the rest of this module is about, and they are worth forty minutes exactly once.
+
+## **Section 2 — A browser is a program that opens files ^sec2**
+
+**Heading** — A browser is a program that opens files
+
+Start with what you already have on your laptop, because what you are about to do is a much smaller change than it sounds.
+
+### **Try it yourself 4.1 ^try-4-1**
+
+Find the page Claude built you — the game from Module 1 is ideal. It is a file whose name ends in `.html`.
+
+Open it in **TextEdit** first. Right-click it, choose *Open With*, then TextEdit. Read a few lines of what is in there.
+
+Now close that without saving, and **double-click the same file**. It opens in your browser.
+
+### **What just happened ^reveal-r1**
+
+**Button hint** — Look at it in TextEdit first
+
+One file, two programs, two completely different-looking results — and **the file did not change between them.**
+
+**An HTML file is just text.** Not a special format, not something compiled or locked. You could read the whole thing aloud. TextEdit showed you that text as text, because showing text is what TextEdit does. The browser read the same characters and **drew a page** from them, because that is what a browser does. Drawing it is called **rendering**, and it is the browser's job — not the file's, and not anybody else's.
+
+Now the quieter thing, which is the one that matters. **Your browser just opened a file on your computer.** No internet was involved. Nothing was downloaded. A browser is a program that opens a file and renders it, and it had one sitting right there.
+
+## **Section 3 — The only difference is whose computer ^sec3**
+
+**Heading** — The only difference is whose computer
+
+Here is the part that is smaller than people expect.
+
+When you type a web address, your browser does exactly what it just did — opens a file and renders it. **The file is simply on somebody else's computer.**
+
+That is the whole of it. Not a different kind of document, not a different sort of program, nothing that needed converting. The same act, aimed somewhere else.
+
+So publishing is not a transformation of your work. It is **putting your file on a computer that is always on, and that will hand it to anyone who asks.** A computer doing that job is a **web server**, and a site that is nothing but files sitting there waiting to be handed over is called **static**.
+
+Which is what you already have. A page, a stylesheet, maybe some pictures, in a folder. You have been making static sites for three modules without needing the word.
+
+But that raises a fair question, and it deserves a real answer rather than being skipped past: **you can already give people the file. Why not just do that?**
+
+### **Try it yourself 4.2 ^try-4-2**
+
+Email the file to yourself. Then open it on your phone.
+
+Now go back to your laptop and ask Claude to change something you would notice — a heading, a color.
+
+Then open the emailed copy on your phone again.
+
+### **What just happened ^reveal-r2**
+
+**Button hint** — Make the change before opening this
+
+Two things, and the first one is the honest half that this kind of module usually skips.
+
+**Sending somebody the file genuinely works.** On a laptop they download it, double-click it, and their browser renders it exactly as yours does. For one colleague, today, that is a completely reasonable thing to do, and nobody should be made to feel it is wrong. On a phone it is already awkward — mail apps will not usually render an attached page, so it may have offered you nothing useful at all.
+
+**And the copy you sent is now wrong.** It still shows the old heading. It will show the old heading forever, because it is not your page — it is a photograph of your page, taken at the moment you pressed send, sitting on somebody else's machine where you cannot reach it.
+
+That is what is wrong with giving people files, and it has nothing to do with whether it technically works. A copy is a snapshot. You have to decide in advance who gets one. You have to send a new one every time anything changes, to everybody, and hope they open the right one. And anyone you did not think of gets nothing at all.
+
+**What you actually want is for the thing to be available to anyone.** One copy, in one place, always current, that you can point a person at without knowing in advance who they are. That is a web address, and it is a different idea from a file you send — not a better way of sending.
+
+### **Side note ^aside-2**
+
 There is another kind of site, where a program runs on the far end every time somebody visits — anything with accounts, a database, a shopping cart. Those are harder, cost money, and need looking after. You do not need one, and a surprising number of people who think they do are wrong.
 
-## **Section 3 — Getting the folder right ^sec3**
+## **Section 4 — Getting the folder right ^sec4**
 
 **Heading** — Getting the folder right
 
@@ -117,7 +167,7 @@ One rule, and nearly every first failure is this rule.
 
 **The folder you publish must contain a file called `index.html` at its top level.** That is the file a bare web address opens. A folder without one publishes perfectly successfully and then shows a 404 or a list of filenames — which reads as "it's broken" when in fact everything worked and there was simply nothing to show first.
 
-### **Try it yourself 4.2 ^try-4-2**
+### **Try it yourself 4.3 ^try-4-3**
 
 Ask Claude to put the thing you are publishing into a folder of its own, correctly named:
 
@@ -127,7 +177,7 @@ Ask Claude to put the thing you are publishing into a folder of its own, correct
 
 Open that folder in Finder and look at it. One `index.html`, plus whatever else it needs. Double-click `index.html` and check the thing still works from its new home.
 
-### **What just happened ^reveal-r2**
+### **What just happened ^reveal-r3**
 
 **Button hint** — Double-click index.html in its new folder first
 
@@ -137,7 +187,7 @@ If something broke — a picture missing, the styling gone — it is almost cert
 
 This is worth understanding properly, because it is why publishing is a *move* rather than a rebuild. The folder is self-contained. It does not care which computer it is on.
 
-## **Section 4 — Publishing it ^sec4**
+## **Section 5 — Publishing it ^sec5**
 
 **Heading** — Publishing it
 
@@ -145,14 +195,14 @@ You are going to use **Netlify**, which is a company that runs a web server so y
 
 **Make the account first.** You can publish without one — drag a folder at netlify.com/drop and you get a live address in about four seconds, which is genuinely impressive. But a site published that way is not attached to you, and taking it down again is awkward. For the first thing you ever put on the open internet, being able to delete it is worth thirty seconds of signing up.
 
-### **Try it yourself 4.3 ^try-4-3**
+### **Try it yourself 4.4 ^try-4-4**
 
 - Go to **netlify.com** and make a free account.
 - Find **Sites**, and the area that invites you to deploy a project manually by dragging a folder. (Netlify moves this around; it is always within one screen of the Sites list, and "drop" is usually in the wording.)
 - Drag your whole folder onto it. Netlify will also take a single file, but yours needs its stylesheet and pictures alongside it, so send the folder.
 - Wait. It will take a few seconds and then show you a web address, something like `fluffy-marmot-a81b3c.netlify.app`.
 - Open it. Then open it **on your phone**, off wifi.
-### **What just happened ^reveal-r3**
+### **What just happened ^reveal-r4**
 
 **Button hint** — Open it on your phone first
 
@@ -162,7 +212,7 @@ Look at what you did *not* have to do. You did not buy a server, or rent one, or
 
 The phone test matters because it proves the thing you actually wanted. It is not on your computer. Your computer could be off.
 
-## **Section 5 — And now it is public ^sec5**
+## **Section 6 — And now it is public ^sec6**
 
 **Heading** — And now it is public
 
@@ -180,23 +230,23 @@ Nothing with a real child on it. Ever. Not a name, not a photograph, not a grade
 
 This is not the whole of the question — **where school data may and may not go is Module 9**, and it is a bigger conversation than one rule. But Module 9 is five modules away and you can publish something this afternoon, so the rule comes now.
 
-### **Side note ^aside-2**
+### **Side note ^aside-3**
 
 Invented data is completely fine, and you have a model for it already: everything in this series uses made-up children. If you want to show a colleague a tool that works with real information, show them the tool with fake information in it.
 
-## **Section 6 — Taking it down ^sec6**
+## **Section 7 — Taking it down ^sec7**
 
 **Heading** — Taking it down
 
 Know how to do this today rather than in an emergency. It is the same reason Module 8 makes you find the revoke button before you need it.
 
-### **Try it yourself 4.4 ^try-4-4**
+### **Try it yourself 4.5 ^try-4-5**
 
 In Netlify, open your site, find its settings, and delete it. It will ask you to type the site's name to confirm, which is a good habit on anybody's part.
 
 Then open the address again in a private window.
 
-### **What just happened ^reveal-r4**
+### **What just happened ^reveal-r5**
 
 **Button hint** — Check the address after deleting first
 
@@ -208,17 +258,17 @@ But notice precisely what you have and have not undone. **Future visitors get no
 
 Now publish it again. It takes four seconds, and you will want it for the next part.
 
-## **Section 7 — Giving it a name ^sec7**
+## **Section 8 — Giving it a name ^sec8**
 
 **Heading** — Giving it a name
 
 `fluffy-marmot-a81b3c` is fine for a test and useless for anything you intend to send to a person.
 
-### **Try it yourself 4.5 ^try-4-5**
+### **Try it yourself 4.6 ^try-4-6**
 
 In your site's settings, change the site name to something you would be willing to put in an email — `oakridge-grade4-fractions`, or whatever yours is. Save it, and open the new address.
 
-### **What just happened ^reveal-r5**
+### **What just happened ^reveal-r6**
 
 **Button hint** — Open the new address first
 
@@ -226,17 +276,17 @@ The old address stops working and the new one starts, instantly, which tells you
 
 That is also why you should change it once and then stop. Every link you have sent out points at whatever the name was when you sent it.
 
-### **Side note ^aside-3**
+### **Side note ^aside-4**
 
 You can put your own domain on it instead — `fractions.myschool.org` — but that means buying a domain and editing DNS records, which is a different afternoon and the first thing in this module that costs money. The free address is a real address; plenty of things live on one permanently.
 
-## **Section 8 — Changing it ^sec8**
+## **Section 9 — Changing it ^sec9**
 
 **Heading** — Changing it
 
 You will want to fix something. Here is the whole workflow.
 
-### **Try it yourself 4.6 ^try-4-6**
+### **Try it yourself 4.7 ^try-4-7**
 
 Ask Claude for a visible change:
 
@@ -246,7 +296,7 @@ Ask Claude for a visible change:
 
 Then drag the folder onto your site's deploys area again, and reload the live address.
 
-### **What just happened ^reveal-r6**
+### **What just happened ^reveal-r7**
 
 **Button hint** — Reload the live address first
 
@@ -260,7 +310,7 @@ Two things follow from that, and they are the reason the next sequence exists.
 
 For now, dragging is fine. Know that it is the simple version of something that gets better.
 
-## **Section 9 — What you can and cannot publish this way ^sec9**
+## **Section 10 — What you can and cannot publish this way ^sec10**
 
 **Heading** — What you can and cannot publish this way
 
@@ -274,7 +324,7 @@ That sounds like a limitation and is mostly a clarification: it tells you which 
 
 > I want to publish [the thing] as a static site. Does it need anything that a plain folder of files can't do — a server, a database, an API key, a password? If it does, tell me exactly which part, and whether there's a simpler version that wouldn't.
 
-## **Section 10 — If something went wrong ^sec10**
+## **Section 11 — If something went wrong ^sec11**
 
 **Heading** — If something went wrong
 
@@ -290,9 +340,11 @@ That sounds like a limitation and is mostly a clarification: it tells you which 
 
 ## **Module tasks ^checklist**
 
-The 8 checkboxes near the end, in the order the module does them:
+The 10 checkboxes near the end, in the order the module does them:
 
-1. Watched a Drive link fail to run an interactive page
+1. Worked out whether what I made was a file or an artifact, and got files
+1. Opened an HTML file in TextEdit and in a browser, and saw one file twice
+1. Emailed myself the file, changed the original, and watched the copy go stale
 1. Got the folder right, with `index.html` at its top level
 1. Published it, and opened the address on my phone
 1. Read the rule about whose name may appear on a public page
@@ -301,7 +353,7 @@ The 8 checkboxes near the end, in the order the module does them:
 1. Made a change and deployed it over the top
 1. Can say which of my ideas need more than a folder of files
 
-## **Section 11 — Before you finish ^sec11**
+## **Section 12 — Before you finish ^sec12**
 
 **Heading** — Before you finish
 
@@ -315,11 +367,11 @@ That is the difference between giving somebody your work and giving somebody *ac
 
 Then notice the cost that came with it. The thing you now have is public, permanent in the only sense that matters, and one drag away from being overwritten. None of those was true of a folder on your laptop.
 
-### **Side note ^aside-4**
+### **Side note ^aside-5**
 
 **Next:** Module 5 — *The Terminal.* You have now made things and put them where other people can use them, which is the whole of Sequence 1. Sequence 2 is about what you can build once you stop being limited to what your Mac came with, and it starts by looking under the hood.
 
-### **Side note ^aside-5**
+### **Side note ^aside-6**
 
 In the meantime: publish something small that a colleague has been asking you for. The thing that makes this worth the forty-five minutes is not the first publish — it is the second one, when somebody says "could it also…" and the answer is a change and a drag.
 
