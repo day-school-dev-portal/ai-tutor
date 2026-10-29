@@ -1,0 +1,23 @@
+{
+  "name": "ai-tutor",
+  "displayName": "Developing with AI — tutor",
+  "description": "Claude tutors you through the Developing with AI modules from the Day School Development Portal, one step at a time, in your own Claude — no website needed. All ten modules, from how your computer is organized into folders to where school data is allowed to live. Say \"start Module 1\". Needs only the Claude desktop app. Uses no school data.",
+  "author": {
+    "name": "Day School Development Portal",
+    "url": "https://github.com/day-school-dev-portal"
+  },
+  "homepage": "https://github.com/day-school-dev-portal/ai-tutor",
+  "repository": "https://github.com/day-school-dev-portal/ai-tutor",
+  "license": "MIT",
+  "keywords": [
+    "developing with ai",
+    "modules",
+    "tutor",
+    "claude code",
+    "getting started",
+    "day school",
+    "professional development",
+    "teachers",
+    "schools"
+  ]
+}

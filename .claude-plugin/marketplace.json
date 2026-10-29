@@ -1,0 +1,18 @@
+{
+  "name": "day-school-dev-portal",
+  "owner": {
+    "name": "Day School Development Portal",
+    "url": "https://github.com/day-school-dev-portal"
+  },
+  "metadata": {
+    "description": "Public plugins from the Day School Development Portal — the open-source hub of school-operations code, the method behind it, and the modules that teach it."
+  },
+  "plugins": [
+    {
+      "name": "ai-tutor",
+      "source": "./",
+      "category": "Learning",
+      "description": "Claude tutors you through the Developing with AI modules, one step at a time, in your own Claude — no website needed. All ten modules. Say \"start Module 1\". Needs only the Claude desktop app. Uses no school data."
+    }
+  ]
+}
