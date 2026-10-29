@@ -69,12 +69,16 @@ The clay-colored lines are the notes that appear underneath a definition. Not ev
 
 The case is Lesson 1.1 of Math Medic's geometry course, *Creating Definitions.* It is a good lesson, and it was written for a teacher standing in a room.
 
+### **Side note ^aside-1**
+
+**Go and look at the original first.** Math Medic Geometry, Unit 1, Day 1 is open to anyone, no account needed to read it. The whole teacher plan is on that page — the learning targets, the timings, the bag of objects, the debrief — along with the student handout, the answer key and a video of the lesson being taught. **This module will make a great deal more sense if you have seen what it is rewriting.** Everything below describes that lesson; none of it is a substitute for reading it.
+
 The teacher pulls objects out of a bag (sneakers, high heels, flip-flops, socks, slippers, Barbie shoes) and students sort them: shoe, or not a shoe? They write a definition, watch the objects break it, and revise. Then the teacher leads a debrief that names what they did. A good definition *classifies* (what group is it in?) and *differentiates* (what sets it apart from the rest of the group?). Students write their own thinking in blue pen and anything from the debrief in red, so the change shows on the page. There is a lesson video to go with it.
 
 It was rewritten twice:
 
 - **For one student working entirely alone.** No teacher, no classmates, no video. That version was built with Claude almost from start to finish.
-- **For Jonah's own class.** A lesson he would actually teach, with a different point. He wrote that plan himself, and the materials from the first rewrite carried straight into it.
+- **For the teacher's own class.** A lesson they would actually teach, with a different point. They wrote that plan themselves, and the materials from the first rewrite carried straight into it.
 You will do the same moves on a lesson of yours.
 
 ### **Try it yourself 3.1 ^try-3-1**
@@ -129,9 +133,9 @@ Claude replaced each of the three:
 - **Gating, for the held-back debrief.** Each section stays locked until the student has written something in the one before it. It never checks whether the answer is right, only that the student went first.
 - **The Challenger, for the classmates.** Six counterexamples that attack the student's *own* definition, one at a time. *The sock problem:* most first attempts say something like "a covering for your foot," and so is a sock. *The horseshoe problem:* if your definition doesn't say "human," the horseshoe walks straight in, and if you add "human," you've just thrown out the doll shoes.
 - **The red pen stayed.** The page uses the same two colors for the same two jobs.
-**Here is the honest part.** The first draft still said what the teacher would do at several points, and it had a whole section built around the lesson video. Math Medic's lessons come with video, and this student would never see it. Jonah's correction was two sentences:
+**Here is the honest part.** The first draft still said what the teacher would do at several points, and it had a whole section built around the lesson video. Math Medic's lessons come with video, and this student would never see it. (You can watch it — the Unit 1 videos are a free preview, and it is the lesson being taught in a room, which is exactly what the rewrite had to replace.) The teacher's correction was two sentences:
 
-**What Jonah typed**
+**What the teacher typed**
 
 > Take out any reference to the teacher doing something. This will be self-guided and also they won't have access to the videos.
 
@@ -139,11 +143,15 @@ Claude found and removed six references to a teacher or a classroom, and the who
 
 The lesson in that: **Claude rewrites toward the resource's assumptions unless you tell it who the student actually is.** It has never met your student. You have.
 
+*The actual page*
+
+Open the self-guided lesson — the real one, with the gating, the Challenger and the two pen colors. Adapted from Math Medic under CC BY-NC-SA 3.0 US and shared under the same license.
+
 ### **Try it yourself 3.4 ^try-3-4**
 
 Do the first activity yourself, as the student. Not a skim: sit where the student will sit and actually answer the first question.
 
-Mark every sentence that assumes someone else is in the room, or something the student won't have. Then tell Claude, in plain words, the way Jonah did.
+Mark every sentence that assumes someone else is in the room, or something the student won't have. Then tell Claude, in plain words, the way the teacher did.
 
 ## **Section 3 — Go and get what the lesson points to ^sec3**
 
@@ -171,7 +179,11 @@ Then, just before the finished materials went into Google Drive, Claude noticed 
 
 The lesson: **"free" almost always means free with conditions.** Ask for the credits file in the same breath as the images, and it's handled before it matters.
 
-### **Side note ^aside-1**
+*The actual file*
+
+IMAGE-CREDITS.md — what Claude wrote: author, license and source link for all twelve. Compare it with yours.
+
+### **Side note ^aside-2**
 
 **Why not just search Google Images?** An image search finds pictures, not permission. Wikimedia Commons and Openverse only carry images whose licenses are stated, which is the whole reason to ask for them by name.
 
@@ -199,9 +211,9 @@ Or a printable packet, or one picture sheet. Then go through it page by page and
 
 *What happened in the case study*
 
-Claude built fifteen clean slides: a cover with the rules, one object per slide with its name in large type, and a closing slide. Jonah got to slide 12 and wrote:
+Claude built fifteen clean slides: a cover with the rules, one object per slide with its name in large type, and a closing slide. The teacher got to slide 12 and wrote:
 
-**What Jonah typed**
+**What the teacher typed**
 
 > Take the labels off the slide, like don't say "an ice skate"
 
@@ -210,6 +222,10 @@ Claude built fifteen clean slides: a cover with the rules, one object per slide 
 Claude made the deck quickly and made it tidy, and never noticed it had undercut the activity. That is the split in this whole module: **Claude is fast at making the thing. You're the one who knows what the thing is for.**
 
 One more catch: **a single fix doesn't find every copy.** The same names were still on the printed picture sheet and on the worksheet's list. When you find a problem like this, ask Claude where else it shows up.
+
+*The actual materials*
+
+**the-bag-slides.pptx** — the twelve slides, after the labels came off **shoe-pictures.pdf** — the same twelve as a printable sheet
 
 ### **Try it yourself 3.7 ^try-3-7**
 
@@ -221,7 +237,7 @@ Ask for one change that's purely about how it looks: bigger, clearer, simpler. T
 
 *What happened in the case study*
 
-Jonah asked to make the pictures bigger. Making them bigger in the layout is easy. But the image files were small, and stretching them would have made them blurry. So Claude checked their size, went back to Wikimedia for the originals (most were thousands of pixels wide and had been shrunk for the first version) and fetched them again. Two, the snowshoes and the slipper, had no bigger original anywhere. They are softer than the rest, and Claude said so instead of hoping nobody would notice.
+The teacher asked to make the pictures bigger. Making them bigger in the layout is easy. But the image files were small, and stretching them would have made them blurry. So Claude checked their size, went back to Wikimedia for the originals (most were thousands of pixels wide and had been shrunk for the first version) and fetched them again. Two, the snowshoes and the slipper, had no bigger original anywhere. They are softer than the rest, and Claude said so instead of hoping nobody would notice.
 
 It also made a mistake on the way: for one pass, those same two pictures came out *smaller* than before. It caught that only because it looked at the finished slides. **Ask to see the result, every time.** Claude reporting that a change went fine is not the same as the change going fine.
 
@@ -231,9 +247,9 @@ It also made a mistake on the way: for one pass, those same two pictures came ou
 
 The self-guided lesson stays close to Math Medic. Its point is Math Medic's point: a good definition classifies and differentiates.
 
-When Jonah rewrote it for his own class, he started from somewhere else:
+When the teacher rewrote it for their own class, they started from somewhere else:
 
-**From Jonah's plan**
+**From the teacher's plan**
 
 > I think the point of this lesson is that to do math, or any rational inquiry, you need to know exactly what you're talking about.
 
@@ -261,7 +277,7 @@ Then:
 
 Claude can show you where the published lesson and your paragraph disagree. It can't write the paragraph.
 
-Math Medic's lesson ends with notes on *classify* and *differentiate.* Jonah's ends with a philosopher asking whether that kind of definition exists at all. Neither one is wrong. But only the second was available, because the person planning knew what he wanted this class to wrestle with.
+Math Medic's lesson ends with notes on *classify* and *differentiate.* The teacher's ends with a philosopher asking whether that kind of definition exists at all. Neither one is wrong. But only the second was available, because the person planning knew what they wanted their class to wrestle with.
 
 ### **Try it yourself 3.9 ^try-3-9**
 
@@ -279,9 +295,21 @@ Now use Claude to rehearse the students.
 
 In the self-guided version there's no class to produce wrong answers, so the lesson has to bring its own. The Challenger opens with the definition most first attempts produce, "a covering for your foot," and breaks it with a sock.
 
-In the whole-class version, the same work becomes preparation. Jonah's plan says the challenges to show "will depend on their definition." Knowing ahead of time that "for walking" throws out the ice skate and the swim fins, and that "human" throws out the doll shoes, is what lets you reach for the right picture at the moment the class needs it.
+In the whole-class version, the same work becomes preparation. The teacher's plan says the challenges to show "will depend on their definition." Knowing ahead of time that "for walking" throws out the ice skate and the swim fins, and that "human" throws out the doll shoes, is what lets you reach for the right picture at the moment the class needs it.
 
-### **Side note ^aside-2**
+### **Try it yourself 3.10 ^try-3-10**
+
+You now have the point, the materials, and the answers the class is likely to give. The last thing you need is something you can actually teach from on the day.
+
+**Ask Claude**
+
+> Turn all of this into a step-by-step plan I can teach from in a [length] period. Give every step an estimated number of minutes and a running clock down the side. For each step tell me what I'm doing, what the students are doing, and the one thing I should be watching for while it happens. Then mark the two or three places where this could run long, and say what I should cut if it does.
+
+Then read it against a period you have actually taught. **The minutes are a guess.** Claude has never watched your class settle, or argue, or need the question asked twice. Where its number and yours disagree, yours wins — tell it, and have it fix the running clock so the totals still add up.
+
+The timings are the smaller half of what comes back. The more useful column is *what to watch for*, because it names the moments the lesson is doing its real work. Those are the ones worth protecting when you fall behind, and the cut list is where you find out whether Claude agrees.
+
+### **Side note ^aside-3**
 
 **Describe your students in general terms only.** "Ninth graders who hate being wrong in front of each other" is plenty. No names, no grades, no records. Where student data is allowed to live is its own module later in this series. Until you've done it, keep students out of your project folders and your prompts.
 
@@ -291,7 +319,7 @@ In the whole-class version, the same work becomes preparation. Jonah's plan says
 
 Lots of lessons carry a little history: where an idea came from, who first proved it. You will almost always simplify it, and you should. A ninth-grade class doesn't need all of the original. But leaving something out on purpose is different from leaving it out because you didn't know it was there.
 
-### **Try it yourself 3.10 ^try-3-10**
+### **Try it yourself 3.11 ^try-3-11**
 
 Paste the history or background part of your plan into the chat, then:
 
@@ -305,7 +333,7 @@ Paste the history or background part of your plan into the chat, then:
 
 *What happened in the case study*
 
-Jonah got his Euclid background from a conversation with Claude while he was planning. Then he boiled it down to seven lines for the lesson, starting with "A point is the smallest mark you can make." He did that on purpose. In his words, "I definitely oversimplified for the sake of this lesson."
+The teacher got their Euclid background from a conversation with Claude while they were planning. Then they boiled it down to seven lines for the lesson, starting with "A point is the smallest mark you can make." They did that on purpose. In their words, "I definitely oversimplified for the sake of this lesson."
 
 That's a fair call, and checking it wasn't about undoing it. The point was to know exactly what the seven lines leave out. Here is how they compare with Book I of the *Elements*, in Heath's translation:
 
@@ -314,7 +342,7 @@ That's a fair call, and checking it wasn't about undoing it. The point was to kn
 - **His definition of parallel has one more phrase.** Parallel lines are lines "in the same plane" that never meet. Without that phrase, a line along the floor and a line across the ceiling going the other way never meet, and they aren't parallel.
 - **The most famous postulate isn't there.** That's the fifth, the *parallel postulate.* For two thousand years mathematicians tried to prove it from the other four. In the 1800s, Lobachevsky and Bolyai showed you could replace it and still get a geometry that holds together. Just not Euclid's.
 - **"You can prove everything" is generous.** Euclid's very first proof assumes that two circles cross, and nothing in his list says they must. Hilbert rebuilt the foundations in 1899 with about twenty axioms.
-Most of that is safe to leave out of a ninth-grade lesson, and the simplification stands. But **two of the things it leaves out could earn their way back in.** Euclid defines an obtuse angle without degrees, "an angle greater than a right angle," which answers a question the plan asks out loud. And the fifth postulate is the shoe lesson at full scale: change one assumption and you haven't fixed geometry, you've found a different one. In Jonah's words, "it could be that this exercise actually changes what we think a shoe IS."
+Most of that is safe to leave out of a ninth-grade lesson, and the simplification stands. But **two of the things it leaves out could earn their way back in.** Euclid defines an obtuse angle without degrees, "an angle greater than a right angle," which answers a question the plan asks out loud. And the fifth postulate is the shoe lesson at full scale: change one assumption and you haven't fixed geometry, you've found a different one. In the teacher's words, "it could be that this exercise actually changes what we think a shoe IS."
 
 The lesson: **simplify on purpose, not by accident.** And **ask Claude to check, not just to tell.** Asking for background gets you a confident paragraph. Asking it to check against the source, quote the source, and say what it's unsure of gets you something you can verify. Then verify one thing yourself. Heath's translation is from 1908 and free online.
 
@@ -335,7 +363,7 @@ The lesson: **simplify on purpose, not by accident.** And **ask Claude to check,
 
 ## **Module tasks ^checklist**
 
-The 8 checkboxes near the end, in the order the module does them:
+The 9 checkboxes near the end, in the order the module does them:
 
 1. Put a lesson I teach into a project folder and had Claude name what the teacher does that the page doesn't
 1. Had Claude rewrite it for a student working alone
@@ -344,6 +372,7 @@ The 8 checkboxes near the end, in the order the module does them:
 1. Turned it into the material the student will use, and checked every page for what it gives away
 1. Wrote "the point of this lesson is…" in my own words, and compared it with the published version
 1. Had Claude write plausible first answers, and matched each one to what breaks it
+1. Had Claude turn it into a step-by-step plan with timings, and corrected the minutes it guessed wrong
 1. Checked my simplified background against the source, and decided on purpose what to leave out
 
 ## **Section 8 — Before you finish ^sec8**
@@ -358,7 +387,11 @@ Answer it again now. Your list is probably longer than it was an hour ago. Claud
 
 Then notice what still feels unclear. That part is the most useful thing you could ask Claude in the next five minutes.
 
-### **Side note ^aside-3**
+### **Side note ^aside-4**
+
+**Everything from the case study, in one folder.** **shoe-lesson.zip** (7.9 MB) holds the self-guided page and its images, both at screen size and full resolution, the credits file, the printable picture sheet and the slides. Nothing in it is a mock-up — it is what actually came out. If you haven't got a lesson of your own to hand, it also works as a starting point. The lesson is adapted from Math Medic under CC BY-NC-SA 3.0 US and passed on under the same license; Math Medic's own handout, plan and answer key aren't included here on purpose — go to the original lesson for those. The page is open to anyone, and it is the honest comparison: their version beside this one.
+
+### **Side note ^aside-5**
 
 **Next:** Module 4 — *Putting it on the internet.* You have made things that work on your laptop. Next, giving other people an address where they can use them.
 

@@ -1,7 +1,7 @@
 # Module 3 — how to tutor it
 
 Hand-written. The module's own words are in `module-03.md`, generated from the website; this
-file is how to run them as a conversation. Exercise numbers (3.1 to 3.10) match the page.
+file is how to run them as a conversation. Exercise numbers (3.1 to 3.11) match the page.
 
 ## The shape: their lesson, not the case study
 
@@ -16,7 +16,7 @@ case study, then ask what's the same and what isn't.
 | **Getting ready** | the opening question, 3.1 | wherever they are | explain; they need a lesson file before anything works |
 | **Reading and rewriting** | 3.2 to 3.4 | a Code session in `~/Projects/lesson-redesign` | **read their actual lesson**, write the rewrite, read it back |
 | **Materials** | 3.5 to 3.7 | the same session | fetch images and write the credits file, build the student-facing thing, check your own work |
-| **The lesson that's theirs** | 3.8 to 3.10 | the same session | argue with their paragraph, rehearse their students, check their background against the source |
+| **The lesson that's theirs** | 3.8 to 3.11 | the same session | argue with their paragraph, rehearse their students, build the plan they teach from, check their background against the source |
 
 This is the longest module so far — an hour and a half on the page, longer in conversation.
 Say that at the start and offer the stopping points: after 3.4, and after 3.7.
@@ -80,7 +80,7 @@ assumptions unless you tell it who the student actually is.**
 **3.4 — do it as the student.** They sit down and answer the first question themselves. This is a
 waiting step and it is where the module earns its length; don't fill the silence with the next
 thing. When they come back with their marked sentences, make exactly those changes, the way
-Jonah's two sentences did ("Take out any reference to the teacher doing something…"). Then tell
+the teacher's two sentences did ("Take out any reference to the teacher doing something…"). Then tell
 them how many references you found and removed — the count is the point.
 
 ## Part B — the materials
@@ -131,7 +131,7 @@ Don't offer to draft it, don't offer examples first; the whole exercise is that 
 theirs. Then they send it with the prompt, and you do the honest comparison: where the published
 version serves their point, where it serves a different one, what to keep, cut or change.
 
-The case study is the proof: Math Medic ends on *classify* and *differentiate*; Jonah's ends with
+The case study is the proof: Math Medic ends on *classify* and *differentiate*; the teacher's ends with
 Wittgenstein asking whether definitions like that exist at all. Neither is wrong, but only the
 second was available to someone who had written the paragraph. **Claude can show you where the
 published lesson and your paragraph disagree. It can't write the paragraph.**
@@ -146,7 +146,22 @@ not like a textbook; the sixth troubleshooting row exists because this comes out
 children or quoting what a particular student wrote, stop and say why, once, and offer the
 general version instead. Module 9 is where that changes, and it isn't a formality.
 
-**3.10 — know what you're simplifying.** They paste their background paragraph. Do what the
+**3.10 — the plan they teach from.** They send the prompt with the length of their period. Give
+every step an estimated number of minutes and a running clock, and for each one say what the
+teacher is doing, what the students are doing, and the single thing to watch for while it
+happens. Then mark the two or three places it could run long and say what to cut.
+
+**Your minutes are a guess and you should say so**, in the plan, not only afterwards. You have
+never watched their class settle or argue. Invite the correction explicitly: ask which numbers
+are wrong, and when they tell you, fix the running clock so the totals still add up rather than
+changing the one line and leaving the arithmetic broken.
+
+The lesson to land: **the timings are the smaller half.** The *what to watch for* column names
+the moments the lesson is doing its real work, and those are what the cut list has to protect.
+If their cut list and yours disagree, that disagreement is the useful part of the exercise —
+their answer wins, and it's worth asking why.
+
+**3.11 — know what you're simplifying.** They paste their background paragraph. Do what the
 prompt asks and not less: check it against the original source, **quote the source where their
 version differs**, say what it leaves out, say for each whether it's safe at that level or
 misleading — and **say which of your points you're least sure about.** That last clause is the

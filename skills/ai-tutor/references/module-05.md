@@ -113,7 +113,7 @@ The clay-colored lines are the notes that appear underneath a definition. Not ev
 
 **Working directory** Wherever the terminal is standing right now. Commands run from here unless you tell them otherwise.
 
-**Path** A file or directory's "address." It is a special format for saying where on your computer a file or folder "lives." This example shows that my desktop is actually just a folder inside the folder "users." *Note:* `/Users/jonah/Desktop/` — here the terminal is looking at my desktop folder inside two other folders.
+**Path** A file or directory's "address." It is a special format for saying where on your computer a file or folder "lives." This example shows that your desktop is actually just a folder inside the folder "users." *Note:* `/Users/yourname/Desktop/` — here the terminal is looking at your desktop folder inside two other folders.
 
 **Extension** A file will always have an extension. It is the part of a filename after the final period — `.pdf`, `.docx`, `.txt`. It tells your computer which program should open the file. For example, `.docx` tells your computer to open the file with Microsoft Word.
 
@@ -160,10 +160,10 @@ The **working directory** is the folder where you are currently working. If you 
 When you typed `pwd`, your computer typed something like this:
 
 ```
-/Users/jonahhassenfeld
+/Users/yourname
 ```
 
-That string is called a **path** — a file or folder's address, written as the list of folders you would open to reach it. This one means that your computer is in the folder "jonahhassenfeld" inside the folder "Users."
+That string is called a **path** — a file or folder's address, written as the list of folders you would open to reach it. Yours will show your own account name where this one says "yourname," and it means that your computer is standing in that folder, inside the folder "Users."
 
 The terminal is always standing in one particular folder. When it opens, it stands in your **home directory** — the one with your name on it, holding your Desktop, Documents and Downloads.
 
