@@ -31,13 +31,15 @@ This is every word learners see on the website, in order. How to read it:
 
 **Label** — Before you start
 
-You have made several things that work. Every one of them exists in exactly one place: a folder on your laptop.
+You have made several things that work. Every one of them exists either in a folder on your laptop or as an *artifact* inside Claude.
 
-That has been fine, because you were the only person who needed to open them. This module is about the moment that stops being true — when a colleague should be able to try the thing, or a family should be able to use it, or you want to put a link in an email rather than an attachment nobody can open.
+That has been fine, because you were the only person who needed to open them. This module is about the moment that stops being true — when you want to make something that other people will use.
+
+Hold this question. You will be asked it again at the end:
 
 *This line sits alone in the clay-bordered box:*
 
-You can email somebody a file. So what is a web address actually *for*? Think about it for a moment.
+You can email somebody a file. So what is a web address actually *for*?
 
 **Label** — Core vocabulary
 
@@ -71,25 +73,33 @@ The clay-colored lines are the notes that appear underneath a definition. Not ev
 
 **HTTPS** The padlock. It means the connection is private; it does **not** mean the page is.
 
-## **Section 1 — First, do you have a file? ^sec1**
+## **Section 1 — First, do you have a file or an artifact? ^sec1**
 
-**Heading** — First, do you have a file?
+**Heading** — First, do you have a file or an artifact?
 
-This module publishes *files*, so before anything else, find out whether you have one. The answer depends on where you have been working, and a lot of people are surprised by it.
+This module publishes *files*, so before anything else, find out whether you have one. The answer depends on which Claude you've been using, and a lot of people are surprised by it.
 
-**If you have been working in Claude Code, you do.** Everything it made is sitting in a folder you named. You can open that folder in Finder right now and see it.
+**If you made it in Claude Code, you do.** Everything it made is sitting in a folder you named. You can open that folder in Finder right now and see it.
 
-**If you have been working in the Claude app or on claude.ai, you may not.** When Claude builds you a page there, it usually appears as an **artifact** — a panel beside the conversation showing the finished thing, which you can click around in. That artifact lives inside Claude, in that conversation. It is not in any folder on your computer, and there is nothing yet for you to drag anywhere.
+**If you made it in a chat with Claude, in the app or on claude.ai, you probably have an artifact** — the panel beside the conversation that you met in Module 1. It lives inside that conversation, and there is nothing yet for you to drag anywhere. Get it out before going on.
 
-The distinction is worth more than this module. **A file is yours.** It sits on your disk, it is backed up with everything else you own, any program can open it, any host will take it, and it will still be there in ten years with no account anywhere. An artifact is convenient, and it is a feature of somebody's product.
+**Download it into a folder of its own.** The artifact has a control for downloading it; exactly where moves as the app changes, but it is always on the artifact itself. Make a new folder inside your *Projects* folder, save the file there, and start a Claude Code session in that folder. Then ask:
 
-If yours is an artifact, get it out before going on. In the Claude app there is a download control on the artifact itself. In Claude Code, ask:
+**Ask Claude — about the file you just brought over**
 
-**Ask Claude — to turn what you made into real files**
+> There is a file in this folder that I made in a chat with Claude. Tell me what it is, and whether it works on its own.
 
-> Write what you just made into its own folder in my Projects folder, as real files I can open in Finder. Tell me the folder's full path when you are done.
+Don't ask Claude Code to go and get it for you. A chat and a Code session are separate conversations, and Claude Code cannot see anything you made in the other one. If the download is awkward and the thing is short, copy the artifact's contents instead, and paste them in:
+
+**Ask Claude — if you copied it instead**
+
+> I made this in a chat with Claude. Save it as index.html in this folder, exactly as it is, then tell me how to open it. [paste it here]
 
 ### **Side note ^aside-1**
+
+**If it is more than a single page, consider building it again.** A chat artifact is usually one big file with everything crammed inside, because chat had nowhere to put more than one. Describe what it does to Claude Code — or paste in the request you made in the chat — and ask for it as a project you can keep working on. The chat version was a first draft; from here on, you change it in Code.
+
+### **Side note ^aside-2**
 
 **Claude can also publish an artifact for you**, and for showing somebody something once, that is a perfectly good answer. What it does not give you is an address of your own, a name you chose, the ability to hand the same thing to a different host next year, or anything that outlives the product. Those are what the rest of this module is about, and they are worth forty minutes exactly once.
 
@@ -155,7 +165,7 @@ That is what is wrong with giving people files, and it has nothing to do with wh
 
 **What you actually want is for the thing to be available to anyone.** One copy, in one place, always current, that you can point a person at without knowing in advance who they are. That is a web address, and it is a different idea from a file you send — not a better way of sending.
 
-### **Side note ^aside-2**
+### **Side note ^aside-3**
 
 There is another kind of site, where a program runs on the far end every time somebody visits — anything with accounts, a database, a shopping cart. Those are harder, cost money, and need looking after. You do not need one, and a surprising number of people who think they do are wrong.
 
@@ -230,7 +240,7 @@ Nothing with a real child on it. Ever. Not a name, not a photograph, not a grade
 
 This is not the whole of the question — **where school data may and may not go is Module 9**, and it is a bigger conversation than one rule. But Module 9 is five modules away and you can publish something this afternoon, so the rule comes now.
 
-### **Side note ^aside-3**
+### **Side note ^aside-4**
 
 Invented data is completely fine, and you have a model for it already: everything in this series uses made-up children. If you want to show a colleague a tool that works with real information, show them the tool with fake information in it.
 
@@ -276,7 +286,7 @@ The old address stops working and the new one starts, instantly, which tells you
 
 That is also why you should change it once and then stop. Every link you have sent out points at whatever the name was when you sent it.
 
-### **Side note ^aside-4**
+### **Side note ^aside-5**
 
 You can put your own domain on it instead — `fractions.myschool.org` — but that means buying a domain and editing DNS records, which is a different afternoon and the first thing in this module that costs money. The free address is a real address; plenty of things live on one permanently.
 
@@ -367,11 +377,11 @@ That is the difference between giving somebody your work and giving somebody *ac
 
 Then notice the cost that came with it. The thing you now have is public, permanent in the only sense that matters, and one drag away from being overwritten. None of those was true of a folder on your laptop.
 
-### **Side note ^aside-5**
+### **Side note ^aside-6**
 
 **Next:** Module 5 — *The Terminal.* You have now made things and put them where other people can use them, which is the whole of Sequence 1. Sequence 2 is about what you can build once you stop being limited to what your Mac came with, and it starts by looking under the hood.
 
-### **Side note ^aside-6**
+### **Side note ^aside-7**
 
 In the meantime: publish something small that a colleague has been asking you for. The thing that makes this worth the forty-five minutes is not the first publish — it is the second one, when somebody says "could it also…" and the answer is a change and a drag.
 

@@ -50,6 +50,13 @@ Ask them to hold it, not answer it. In the second message, before 1.2, add the l
 chat: *"In this chat I can't see any of your files. In about twenty minutes you'll open a session
 where I can, and only in the folder you choose. That's what this module is about."*
 
+The opening also names the **artifact**: what a chat hands you when you ask it to make something,
+because it has nowhere to save a file. If they've made things in a chat before, ask in one line
+whether they remember the panel beside the conversation; that's an artifact, and the difference
+from what they're about to make is the point of 1.8. Don't make one now to show them. Keep the
+claim to "by default": Claude Code makes files by default, and in the desktop app it can publish
+an artifact too, so don't say it can't.
+
 **1.1 — install.** From the setup question: if they're in the Claude app, it's done. Say so
 ("you've already done the first exercise") and point out one thing for later: the **Code** tab,
 top left, `</>`. If they're in a browser, they need the desktop app before Part B; give them 1.1's
@@ -128,7 +135,9 @@ the prompt asks.
 **1.8 — go and look.** This is the step most likely to be skipped, and the one that matters
 most: *"You'll have to leave me to do this, which is the point."* Don't open it for them (don't
 run `open`). When they've played a round, the *What just happened*: **Claude made a file. That is
-the entire thing it did.**
+the entire thing it did.** Then the paragraph after it, which closes the loop the opening started:
+**a file is yours**, on their disk, openable by any program, needing no account; an artifact is
+convenient and is a feature of somebody's product. Module 4 depends on this: it publishes files.
 
 **1.9 and 1.10 — change it.** They send their own requests, or the page's. Make the changes they
 ask for and only those. After each, remind them to reload the page. If 1.10's result isn't what

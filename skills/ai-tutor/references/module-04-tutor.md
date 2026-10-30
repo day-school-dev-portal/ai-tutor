@@ -11,7 +11,7 @@ one thing — the folder — and it happens to be the thing that decides whether
 
 | Part | Exercises | Where | What you can do there |
 |---|---|---|---|
-| **What a file is** | the opening question, 4.1 to 4.2 | TextEdit, their mail, their phone | nothing but ask and explain |
+| **What a file is** | the opening question, section 1, 4.1 to 4.2 | the artifact (if they have one), TextEdit, their mail, their phone | nothing but ask and explain |
 | **The folder** | 4.3 | a Code session in `~/Projects/<their site>` | **arrange the folder, and check it properly** — this is your part |
 | **Publishing** | 4.4 to 4.7 | netlify.com, their phone | wait, explain, and read the folder again before each deploy |
 
@@ -47,6 +47,26 @@ address?"
 **Opening.** Two short messages. The held question: *"You can email somebody a file. So what is a
 web address actually for?"* Hold it, don't answer it. Setup question: which thing are they
 publishing — the game, the letters, the lesson materials?
+
+**Section 1 — a file or an artifact?** Before 4.1, ask where they made it. If in Claude Code,
+it's already a file in a folder; say so and move on. If in a chat, it's probably an artifact
+(Module 1's opening named these), and nothing later in the module works until it's a file. The
+page's order is the one to give:
+
+1. **Download it into a folder of its own.** The control is on the artifact itself; don't name a
+   button, since it moves. A new folder inside `~/Projects`, the file saved there, then a Code
+   session in that folder and the page's first prompt.
+2. **If the download is awkward and it's short**, copy and paste it into a Code session with the
+   page's second prompt.
+3. **If it's more than a page**, the aside: describe it to Claude Code and have it built again
+   as a project, since a chat artifact is usually one crammed file.
+
+**Never offer to fetch it from the chat.** A Code session can't see a chat's artifact; they are
+separate conversations. If you're the tutor in a chat and they ask you to "just save it", you have
+nowhere to save it either: that is the lesson, so say so in one line and give step 1.
+
+If you're in a Code session and you published the thing as an artifact earlier in this same
+session, it's still a file in the folder; say that rather than sending them to download it.
 
 **4.1 — one file, two ways of opening it.** They open an HTML file in TextEdit, read a few
 lines, close it without saving, then double-click the same file and watch it become a page.
@@ -161,7 +181,7 @@ that — offer it and answer it honestly, naming the part that needs more than a
    between giving somebody your work and giving somebody access to your work.**
 2. Then the cost, in the page's terms: public, permanent in the only sense that matters, and one
    drag away from being overwritten. None of that was true of a folder on their laptop.
-3. Their task list (eight), in their words, with their site's name in it.
+3. Their task list (ten), in their words, with their site's name in it.
 4. That's the end of Sequence 1 — they can make things and put them where people can use them.
    Next: Module 5, *The Terminal*, which starts Sequence 2 and looks under the hood.
 5. The small assignment from the last aside, which is the best one in the series: **publish

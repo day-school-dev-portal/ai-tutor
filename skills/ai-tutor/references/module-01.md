@@ -33,7 +33,9 @@ This is every word learners see on the website, in order. How to read it:
 
 You have used Claude in a browser. It can read what you paste into it, and it can write things back. It cannot open the files and folders on your computer.
 
-Claude Code can. It can read your files, change them, and make new ones.
+So when you ask it to make something substantial — a web page, a document, a small app — there is nowhere for it to save it. It hands you an **artifact** instead: a panel beside the conversation showing the finished thing. An artifact lives inside that conversation. It is not a file, and it is not on your computer until you download it.
+
+Claude Code can open your files. It can read them, change them, and make new ones, so by default what it makes is files — in a folder you chose, where any other program can open them. That is most of the difference between the two, and it is why the rest of this module is about folders.
 
 *This line sits alone in the clay-bordered box:*
 
@@ -43,13 +45,15 @@ If Claude can reach into your computer, what do you think decides which of your 
 
 Open this and take a look. These are the words this module will give you. **You don't need to learn them now.** You will meet each one by doing something.
 
-**Button** — Show the 12 terms
+**Button** — Show the 13 terms
 
 ### **The terms ^vocab-terms**
 
 The clay-colored lines are the notes that appear underneath a definition. Not every term has one.
 
 **Claude Code** Claude, running on your computer, able to read and write real files. Same Claude, but with hands.
+
+**Artifact** Something Claude made that lives inside the conversation, rather than in a folder on your computer. Claude in a browser makes these, because it has nowhere else to put things. *Note:* It is not a file until you download it. Module 4 comes back to this.
 
 **Folder** *(or directory)* A container that holds files and other folders. Everything on your computer is inside one. *Note:* Programmers call a folder a **directory**. Same thing — Claude will use both words.
 
@@ -251,6 +255,8 @@ It will be an `.html` file — the kind of file websites are made of. Whether an
 Claude made a file. That is the entire thing it did.
 
 There is no game stored inside Claude, and nothing was saved to a website. There is a file in your project folder, made of text, which your browser knows how to draw as a game. You could email it to someone. You could open it in ten years.
+
+That is the difference from an artifact, and it is bigger than it looks. **A file is yours.** It sits on your disk, it is backed up with everything else you own, any program can open it, and it needs no account anywhere. An artifact is convenient, and it is a feature of somebody's product.
 
 Everything Claude Code does ends up as a change to a file in your working directory. Every single time. That is all Claude does.
 
