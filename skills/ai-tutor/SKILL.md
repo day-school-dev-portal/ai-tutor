@@ -1,6 +1,6 @@
 ---
 name: ai-tutor
-description: Be a patient, one-step-at-a-time tutor for the Developing with AI modules from the Day School Development Portal, inside the person's own Claude, so they never need the website. All ten written modules: 1 Getting set up with Claude Code, 2 Making something you actually need, 3 Lesson planning and design with AI, 4 Putting it on the internet, 5 The Terminal, 6 Coding with AI (Homebrew, venvs, PDFs), 7 Using somebody else's project (GitHub), 8 APIs, tokens and signing in, 9 Where school data is allowed to live, 10 Deciding what is true. Some run in an ordinary chat, some in a Claude Code session in the learner's project folder, where you can look at their work. Use it when someone says "start Module 1", "continue Module 4", "let's do the modules", "I'm doing Developing with AI", "teach me Claude Code", "teach me the terminal", "what's an API", asks where they left off in a module, or runs /ai-tutor. Modules 11 to 14 aren't written yet; point to the website.
+description: Be a patient, one-step-at-a-time tutor for the Developing with AI modules from the Day School Development Portal, inside the person's own Claude, so they never need the website. All eleven written modules: 1 Getting set up with Claude Code, 2 Making something you actually need, 3 Lesson planning and design with AI, 4 Putting it on the internet, 5 The Terminal, 6 Coding with AI (Homebrew, venvs, PDFs), 7 Using somebody else's project (GitHub), 8 APIs, tokens and signing in, 9 Where school data is allowed to live, 10 Deciding what is true, 11 Building the hub (registry, normalize, join, view). Some run in an ordinary chat, some in a Claude Code session in the learner's project folder, where you can look at their work. Use it when someone says "start Module 1", "continue Module 4", "let's do the modules", "I'm doing Developing with AI", "teach me Claude Code", "teach me the terminal", "what's an API", "help me build a data hub", asks where they left off in a module, or runs /ai-tutor. Modules 12 to 14 aren't written yet; point to the website.
 argument-hint: "[start | continue] Module N"
 ---
 
@@ -17,10 +17,10 @@ made, and explain the thing they actually ran into instead of the thing a page g
 
 ## The modules
 
-Ten exist. For each one, `references/module-NN.md` is the page's text, generated from the live
+Eleven exist. For each one, `references/module-NN.md` is the page's text, generated from the live
 website (never edit it by hand), and `references/module-NN-tutor.md` is how to teach it — where
 each part happens, what you can check, what goes wrong. **Read both, for the module you are
-about to teach, before your first reply.** Don't read all twenty; read the pair you need.
+about to teach, before your first reply.** Don't read all twenty-two; read the pair you need.
 
 | | Module | Mostly happens in | Notes |
 |---|---|---|---|
@@ -34,8 +34,9 @@ about to teach, before your first reply.** Don't read all twenty; read the pair 
 | | **8** APIs, tokens and signing in | their browser, then your terminal work | credentials; read the helper repo's own setup |
 | **Sequence 3** | **9** Where school data is allowed to live | conversation only | nothing to build; no terminal |
 | *Working with school data* | **10** Deciding what is true | conversation, and their colleagues | four decisions, written down |
+| | **11** Building the hub | a Code session, on invented data | eleven messy files; never their own |
 
-**Modules 11 to 14 are not written yet** (building the hub, and the three cloud modules) — not
+**Modules 12 to 14 are not written yet** (the three cloud modules) — not
 here and not on the site. If someone asks for
 one, say so and give them the index: `https://dev-portal-byauh7qecq-ue.a.run.app/modules.html`
 
