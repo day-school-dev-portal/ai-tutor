@@ -132,6 +132,12 @@ Then wait. When they come back with an address, ask them to open it **on their p
 wifi** — that's the exercise, and the reveal depends on it. The phone test proves the thing they
 actually wanted: *it is not on your computer. Your computer could be off.*
 
+Then the two words, which the page names here and keeps apart from now on. They **published**
+it: there's an address, and anyone with it can open the page. The drag was also their first
+**deploy**: the host's files are now the ones from their folder. The first time, the two happen
+together; 4.6 and 4.7 are each one without the other, so point that out when you get there. Use
+the words the same way yourself: "publish" for who can reach it, "deploy" for putting new files up.
+
 **Section 5 — and now it is public.** Don't rush this and don't soften it. It is the part of the
 module with consequences, and the page's words are the right ones:
 
@@ -156,11 +162,13 @@ again — they need it for 4.6 and it takes four seconds.
 **4.6 — a name.** Change the site name to something they'd put in an email. The reveal is the
 nice one: the old address stops working and the new one starts instantly, which tells them what
 an address is — **a label pointing at the files, not a place where they live.** Hence: change it
-once, then stop, because every link already sent points at the old name.
+once, then stop, because every link already sent points at the old name. And name what they
+didn't do: deploy. Same files; only where it's published changed.
 
 **4.7 — changing it.** They ask you for a visible change; make it, keeping the same filenames in
-the same folder. They drag the folder again and reload. Then the two consequences, which are the
-setup for Sequence 2:
+the same folder. They drag the folder again and reload. That's a deploy, and the mirror of 4.6:
+new files, while who can reach it stayed exactly the same. Publishing happened once; deploying is
+every change. Then the two consequences, which are the setup for Sequence 2:
 
 - **They just overwrote the live site by dragging a folder.** No check, no preview, no "are you
   sure."

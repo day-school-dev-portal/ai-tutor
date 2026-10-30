@@ -45,7 +45,7 @@ You can email somebody a file. So what is a web address actually *for*?
 
 Open this and take a look. **You don't need to learn them now.** You will meet each one by doing something.
 
-**Button** — Show the 11 terms
+**Button** — Show the 12 terms
 
 ### **The terms ^vocab-terms**
 
@@ -63,7 +63,9 @@ The clay-colored lines are the notes that appear underneath a definition. Not ev
 
 **Host** A company that runs that computer for you. You give them files; they give you an address.
 
-**Deploy** Putting a new version of your files on the host. *Note:* Not "saving." Publishing. The live site changes the moment it finishes.
+**Publish** Making something available to other people at an address. It is about who can reach it, not about the files. *Note:* You publish once, and it stays published until you take it down.
+
+**Deploy** Putting a new version of your files on the host, in place of the old one. *Note:* Not "saving." The live site changes the moment it finishes. You publish once; you deploy every time you change something.
 
 **`index.html`** The file a web address opens by default. A folder without one has nothing to show. *Note:* The single most common reason a first publish looks broken.
 
@@ -222,6 +224,8 @@ Look at what you did *not* have to do. You did not buy a server, or rent one, or
 
 The phone test matters because it proves the thing you actually wanted. It is not on your computer. Your computer could be off.
 
+There are two words for what you just did, and from here on they come apart. You **published** it: there is now an address, and anyone who has it can open your page. And the drag was your first **deploy**: the files on Netlify's computer are now the ones from your folder. The first time, the two happen together. After that, they don't.
+
 ## **Section 6 — And now it is public ^sec6**
 
 **Heading** — And now it is public
@@ -284,6 +288,8 @@ In your site's settings, change the site name to something you would be willing 
 
 The old address stops working and the new one starts, instantly, which tells you something about what an address is: not a place where your files live, but a **label pointing at them**. The files never moved.
 
+Notice what you did not do: deploy. The files are exactly the ones you dragged in 4.4. You changed where the site is published, not what is in it.
+
 That is also why you should change it once and then stop. Every link you have sent out points at whatever the name was when you sent it.
 
 ### **Side note ^aside-5**
@@ -312,11 +318,13 @@ Then drag the folder onto your site's deploys area again, and reload the live ad
 
 That is a **deploy**: you replaced the files, and the live site became the new version the moment it finished. Everybody who opens the address from now on sees the change.
 
+And notice what did not change. It was already published, at the same address, to the same people; nothing about who can see it moved. Publishing happened once. Deploying is what you will do every time you change something.
+
 Two things follow from that, and they are the reason the next sequence exists.
 
 **You just overwrote the live site by dragging a folder.** There was no check, no preview, no "are you sure." Whatever was in the folder is now what the world sees, including a mistake.
 
-**And there is no history.** Netlify keeps a list of your past deploys and you can roll back to one, which is a real safety net — but *your folder* has no history at all. If you ask Claude for a change and preferred the old version, the old version is gone from your laptop. That is the problem Module 7 solves, and it is why a lot of people who publish regularly end up connecting a repository instead of dragging folders: publishing becomes automatic, and every version is kept.
+**And there is no history.** Netlify keeps a list of your past deploys and you can roll back to one, which is a real safety net — but *your folder* has no history at all. If you ask Claude for a change and preferred the old version, the old version is gone from your laptop. That is the problem Module 7 solves, and it is why a lot of people who publish regularly end up connecting a repository instead of dragging folders: deploying becomes automatic, and every version is kept.
 
 For now, dragging is fine. Know that it is the simple version of something that gets better.
 
