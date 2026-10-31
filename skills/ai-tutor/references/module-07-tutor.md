@@ -8,7 +8,7 @@ The page's title is *Using somebody else's project*, not "GitHub", though the fi
 
 ## The shape: a stranger's project, on their machine
 
-Module 7 is where the learner stops building from nothing. They read a public repo in a browser,
+Module 7 is where the learner stops starting every project in an empty folder. They read a public repo in a browser,
 install two programs, clone the repo into `~/Projects`, and then do the real work in a Claude
 Code session standing in `group-maker` — which is where you come in.
 

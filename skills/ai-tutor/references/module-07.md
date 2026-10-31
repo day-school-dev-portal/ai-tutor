@@ -26,13 +26,13 @@ This is every word learners see on the website, in order. How to read it:
 
 **Title** — Using somebody else's project
 
-**For** anyone who has finished Sequence 1 **Time** about an hour **You need** Claude Code, and your terminal
+**For** anyone who has finished Module 6 **Time** about an hour **You need** Claude Code, and your terminal
 
 ---
 
 **Label** — Before you start
 
-Everything you have built so far, you built from nothing. That is a slow way to work, and it is not how anybody actually does this.
+Every project you have worked on so far started with you, in an empty folder. Module 6 borrowed a library, but the program around it was yours. That is a slow way to work, and it is not how anybody actually does this.
 
 Almost every useful program starts as somebody else's program.
 
