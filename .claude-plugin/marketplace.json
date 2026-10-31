@@ -12,7 +12,7 @@
       "name": "ai-tutor",
       "source": "./",
       "category": "Learning",
-      "description": "Claude tutors you through the Developing with AI modules, one step at a time, in your own Claude — no website needed. All ten modules. Say \"start Module 1\". Needs only the Claude desktop app. Uses no school data."
+      "description": "Claude tutors you through the Developing with AI modules, one step at a time, in your own Claude — no website needed. All eleven modules. Say \"start Module 1\". Needs only the Claude desktop app. Uses no school data."
     }
   ]
 }

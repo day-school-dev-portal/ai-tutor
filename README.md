@@ -6,9 +6,9 @@ The same modules as the website, done in conversation instead: Claude gives you 
 waits while you do it, explains what you actually ran into, and, in Claude Code, looks at
 your folder to check your work.
 
-All ten written modules, from how your computer is organized into folders (Module 1) to
-deciding which copy of your school's data is true (Module 10). It never needs, and will not
-use, real student data.
+All eleven written modules, from how your computer is organized into folders (Module 1) to
+building one record per child from a school's messy exports (Module 11). It never needs, and
+will not use, real student data.
 
 ## Install
 
